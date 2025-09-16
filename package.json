@@ -1,0 +1,34 @@
+{
+  "name": "pms-monitoring",
+  "version": "1.0.0",
+  "description": "PMS Monitoring Dashboard - System health and metrics monitoring",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["pms", "monitoring", "health", "metrics"],
+  "author": "PMS Team",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.5.0",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/cors": "^2.8.13",
+    "@types/node": "^20.17.43",
+    "@types/ws": "^8.5.5",
+    "typescript": "^5.8.3",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
